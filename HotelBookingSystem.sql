@@ -216,15 +216,15 @@ EXEC display_hotels_and_rooms
 EXEC display_available_rooms 'Hotel Hyatt';
 
 --RoomBooking
-EXEC book_room 1, 1, 'Kurup', 'Reddy', 'kurupreddy@example.com', '1234567890', '2022-01-01', '2022-01-03'
+EXEC book_room 1, 1, 'Kurup', 'Reddy', 'kurupreddy@gmail.com', '1234567890', '2022-01-01', '2022-01-03'
 
-EXEC book_room 2, 3, 'Arjun', 'Das', 'das@example.com', '0987654321', '2022-01-01', '2022-01-03'
+EXEC book_room 2, 3, 'Arjun', 'Das', 'das@gmail.com', '0987654321', '2022-01-01', '2022-01-03'
 
-EXEC book_room 3, 5, 'Alex', 'Smith', 'alexsmith@example.com', '5551234567', '2022-01-01', '2022-01-03'
+EXEC book_room 3, 5, 'Alex', 'Smith', 'alexsmith@gmail.com', '5551234567', '2022-01-01', '2022-01-03'
 
-EXEC book_room 4, 7, 'Virat', 'John', 'viratjohnson@example.com', '5559876543', '2022-01-01', '2022-01-03';
+EXEC book_room 4, 7, 'Virat', 'John', 'viratjohnson@gmail.com', '5559876543', '2022-01-01', '2022-01-03';
 
-EXEC book_room 5, 9, 'Manish', 'pandey', 'manish@example.com', '6282567652', '2022-01-01', '2022-01-03';
+EXEC book_room 5, 9, 'Manish', 'pandey', 'manish@gmail.com', '6282567652', '2022-01-01', '2022-01-03';
 
 --Displaying Booking Details
 EXEC display_booking_details 14
