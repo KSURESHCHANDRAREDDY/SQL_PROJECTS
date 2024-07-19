@@ -226,8 +226,14 @@ EXEC book_room 4, 7, 'Virat', 'John', 'viratjohnson@gmail.com', '5559876543', '2
 
 EXEC book_room 5, 9, 'Manish', 'pandey', 'manish@gmail.com', '6282567652', '2022-01-01', '2022-01-03';
 
+--Bookings
+select*from Booking
+
+--Customers table
+select*from Customers
+
 --Displaying Booking Details
-EXEC display_booking_details 14
+EXEC display_booking_details 15
 
 --Payments
 select*from Payments
